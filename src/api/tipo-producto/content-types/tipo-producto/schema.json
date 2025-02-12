@@ -4,21 +4,12 @@
   "info": {
     "singularName": "tipo-producto",
     "pluralName": "tipo-productos",
-    "displayName": "Tipo_Producto"
+    "displayName": "Tipo_Producto",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "Nombre": {
-      "type": "string"
-    },
-    "productos": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::producto.producto",
-      "mappedBy": "tipo_producto"
-    }
-  }
+  "attributes": {}
 }

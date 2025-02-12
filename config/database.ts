@@ -8,7 +8,7 @@ export default ({ env }) => {
       connection: {
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'tienda_lana'),
+        database: env('DATABASE_NAME', 'tienda_dona'),
         user: env('DATABASE_USERNAME', 'admin'),
         password: env('DATABASE_PASSWORD', '1111'),
         ssl: env.bool('DATABASE_SSL', false),

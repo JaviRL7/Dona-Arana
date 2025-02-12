@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "productos",
+  "collectionName": "subcategorias",
   "info": {
-    "singularName": "producto",
-    "pluralName": "productos",
-    "displayName": "Productos",
-    "description": ""
+    "singularName": "subcategoria",
+    "pluralName": "subcategorias",
+    "displayName": "Subcategoria"
   },
   "options": {
     "draftAndPublish": true
@@ -16,10 +15,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::categoria.categoria",
-      "inversedBy": "productos"
-    },
-    "Precio": {
-      "type": "decimal"
+      "inversedBy": "subcategorias"
     }
   }
 }
